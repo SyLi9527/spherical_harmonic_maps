@@ -1,7 +1,7 @@
 import trimesh
 
 # Load the object from a file
-mesh = trimesh.load('data/cylinder.obj')
+mesh = trimesh.load('data/cube_real.obj')
 
 # Check if the loaded object is a mesh
 if isinstance(mesh, trimesh.Trimesh):
